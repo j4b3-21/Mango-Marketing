@@ -12,7 +12,7 @@ const App = () => {
             <Navbar></Navbar>
             <hr className="mx-4 pb-4"/>
             <Routes>
-                <Route path='/home' element={<Dashboard />} />
+                <Route path='/' element={<Dashboard />} />
                 <Route path='/products' element={<Products />} />
                 <Route path='/contact' element={<Contact />} />
             </Routes>

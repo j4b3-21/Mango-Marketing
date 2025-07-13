@@ -13,7 +13,7 @@ const Navbar = () => {
 
             {/* Nav Links */}
             <div className=" 2xl:flex  md:flex-row items-center gap-6 sm:gap-3 md:gap-10 pt-16 md:pt-0">
-                <Link to="/home" className="hover:text-pink-600 transition duration-200  pr-3">HOME</Link>
+                <Link to="/" className="hover:text-pink-600 transition duration-200  pr-3">HOME</Link>
                 <Link to="/products" className="hover:text-pink-600 transition duration-200 pr-3">PRODUCTS</Link>
                 <Link to="/contact" className="hover:text-pink-600 transition duration-200">CONTACT</Link>
             </div>
